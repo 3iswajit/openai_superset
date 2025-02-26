@@ -1,0 +1,85 @@
+slice_name: Plan Type Distribution
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 41__table
+  viz_type: pie
+  slice_id: 90
+  cache_timeout: 86400
+  groupby:
+  - Plan Type
+  metric:
+    aggregate: COUNT_DISTINCT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Plan Name
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 2971
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: TEXT
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: COUNT_DISTINCT(Plan Name)
+    optionName: metric_pr067fjf2zq_r7pmxjifx8g
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_6miimvjxh6w_h3m8u5sziep
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: Plan Introduction Date
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  legendMargin: null
+  label_type: key_value
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: false
+  outerRadius: 59
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Plan
+  Introduction Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["Plan
+  Type"],"metrics":[{"aggregate":"COUNT_DISTINCT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Plan
+  Name","description":null,"expression":null,"filterable":true,"groupby":true,"id":2971,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"TEXT","type_generic":1,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT_DISTINCT(Plan
+  Name)","optionName":"metric_pr067fjf2zq_r7pmxjifx8g","sqlExpression":null}],"orderby":[[{"aggregate":"COUNT_DISTINCT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Plan
+  Name","description":null,"expression":null,"filterable":true,"groupby":true,"id":2971,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"TEXT","type_generic":1,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT_DISTINCT(Plan
+  Name)","optionName":"metric_pr067fjf2zq_r7pmxjifx8g","sqlExpression":null},false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"41__table","viz_type":"pie","slice_id":90,"cache_timeout":86400,"groupby":["Plan
+  Type"],"metric":{"aggregate":"COUNT_DISTINCT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Plan
+  Name","description":null,"expression":null,"filterable":true,"groupby":true,"id":2971,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"TEXT","type_generic":1,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT_DISTINCT(Plan
+  Name)","optionName":"metric_pr067fjf2zq_r7pmxjifx8g","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_6miimvjxh6w_h3m8u5sziep","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"Plan
+  Introduction Date"}],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetColors","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","legendMargin":null,"label_type":"key_value","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":false,"outerRadius":59,"donut":true,"innerRadius":30,"extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: 86400
+uuid: 777b2359-b167-427d-878b-f566b523cff8
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

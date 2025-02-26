@@ -1,0 +1,48 @@
+slice_name: Cost Impact
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 42__table
+  viz_type: big_number_total
+  slice_id: 2294
+  metric:
+    aggregate: SUM
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Total Cost Impact
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 3095
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: SUM(Total Cost Impact)
+    optionName: metric_ahns0x5r4yp_gfre38v8ydr
+    sqlExpression: null
+  adhoc_filters: []
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: $,.3s
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 35
+query_context: null
+cache_timeout: null
+uuid: 7653dbd6-7bf7-4869-91a5-a9dae9631b9c
+version: 1.0.0
+dataset_uuid: 6f5a7646-7609-4053-a523-855374abf333

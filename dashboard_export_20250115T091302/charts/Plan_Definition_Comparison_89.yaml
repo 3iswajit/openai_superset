@@ -1,0 +1,68 @@
+slice_name: Plan Definition Comparison
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 41__table
+  viz_type: table
+  slice_id: 89
+  cache_timeout: 3600
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    Plan Introduction Date: true
+    CurrentDateTime: true
+  all_columns:
+  - Plan Name
+  - Plan Type
+  - Plan Cost
+  - Validity Days
+  - Calls
+  - Minutes
+  - Roaming
+  - SMS per day
+  - Network Type
+  - Data
+  - Prime
+  - Disney
+  - OSN
+  - StarSports
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Plan Introduction Date
+  order_by_cols: []
+  server_pagination: true
+  row_limit: 1000
+  server_page_length: 0
+  order_desc: true
+  table_timestamp_format: smart_date
+  include_search: true
+  show_cell_bars: true
+  align_pn: false
+  color_pn: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Plan
+  Introduction Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["Plan
+  Name","Plan Type","Plan Cost","Validity Days","Calls","Minutes","Roaming","SMS per
+  day","Network Type","Data","Prime","Disney","OSN","StarSports"],"orderby":[],"annotation_layers":[],"row_limit":0,"row_offset":0,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]},{"filters":[{"col":"Plan
+  Introduction Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["Plan
+  Name","Plan Type","Plan Cost","Validity Days","Calls","Minutes","Roaming","SMS per
+  day","Network Type","Data","Prime","Disney","OSN","StarSports"],"orderby":[],"annotation_layers":[],"row_limit":0,"row_offset":0,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"is_rowcount":true}],"form_data":{"datasource":"41__table","viz_type":"table","slice_id":89,"cache_timeout":3600,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"Plan
+  Introduction Date":true,"CurrentDateTime":true},"all_columns":["Plan Name","Plan
+  Type","Plan Cost","Validity Days","Calls","Minutes","Roaming","SMS per day","Network
+  Type","Data","Prime","Disney","OSN","StarSports"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Plan Introduction
+  Date"}],"order_by_cols":[],"server_pagination":true,"row_limit":1000,"server_page_length":0,"order_desc":true,"table_timestamp_format":"smart_date","include_search":true,"show_cell_bars":true,"align_pn":false,"color_pn":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: 86400
+uuid: ceb5d158-809a-4ef2-90e1-146c342ae118
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

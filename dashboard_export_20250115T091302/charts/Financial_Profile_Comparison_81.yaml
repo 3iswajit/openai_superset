@@ -1,0 +1,54 @@
+slice_name: Financial Profile Comparison
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 41__table
+  viz_type: table
+  slice_id: 81
+  cache_timeout: 3600
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup:
+    Plan Introduction Date: true
+    CurrentDateTime: true
+  all_columns:
+  - Plan Name
+  - Number of Subscribers
+  - Revenue
+  - Cost
+  - Margins
+  - ARPU
+  - ACPU
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Plan Introduction Date
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  include_search: true
+  show_cell_bars: true
+  color_pn: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Plan
+  Introduction Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["Plan
+  Name","Number of Subscribers","Revenue","Cost","Margins","ARPU","ACPU"],"orderby":[],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"41__table","viz_type":"table","slice_id":81,"cache_timeout":3600,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{"Plan
+  Introduction Date":true,"CurrentDateTime":true},"all_columns":["Plan Name","Number
+  of Subscribers","Revenue","Cost","Margins","ARPU","ACPU"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Plan Introduction
+  Date"}],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","include_search":true,"show_cell_bars":true,"color_pn":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: 86400
+uuid: 8658a370-4710-4966-bde0-55f49ea7bc10
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

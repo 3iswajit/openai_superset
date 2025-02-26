@@ -1,0 +1,76 @@
+slice_name: '# Plans'
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 41__table
+  viz_type: big_number_total
+  slice_id: 82
+  metric:
+    aggregate: COUNT_DISTINCT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Plan Name
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 2971
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: TEXT
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: COUNT_DISTINCT(Plan Name)
+    optionName: metric_zwc3exkpg5f_pdldkhrcld8
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator:
+    - Add-Ons
+    - Postpaid
+    - Prepaid
+    - Roaming
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_44n6ui7gmcg_0gyri0lqomr8
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: Plan Type
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Plan Introduction Date
+  subheader: ''
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  time_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Plan
+  Type","op":"IN","val":["Add-Ons","Postpaid","Prepaid","Roaming"]},{"col":"Plan Introduction
+  Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":"COUNT_DISTINCT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Plan
+  Name","description":null,"expression":null,"filterable":true,"groupby":true,"id":2971,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"TEXT","type_generic":1,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT_DISTINCT(Plan
+  Name)","optionName":"metric_zwc3exkpg5f_pdldkhrcld8","sqlExpression":null}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"41__table","viz_type":"big_number_total","slice_id":82,"metric":{"aggregate":"COUNT_DISTINCT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Plan
+  Name","description":null,"expression":null,"filterable":true,"groupby":true,"id":2971,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"TEXT","type_generic":1,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT_DISTINCT(Plan
+  Name)","optionName":"metric_zwc3exkpg5f_pdldkhrcld8","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","comparator":["Add-Ons","Postpaid","Prepaid","Roaming"],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_44n6ui7gmcg_0gyri0lqomr8","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"Plan
+  Type"},{"clause":"WHERE","comparator":"No filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Plan
+  Introduction Date"}],"subheader":"","header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: 3600
+uuid: 322d828f-02cd-43eb-a396-fc2bd0843d90
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

@@ -1,0 +1,155 @@
+slice_name: Customer Demographic (Plan Type)
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 41__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 100
+  cache_timeout: 86400
+  x_axis: Plan Type
+  time_grain_sqla: P1D
+  x_axis_sort_asc: true
+  x_axis_sort_series: sum
+  x_axis_sort_series_ascending: false
+  metrics:
+  - aggregate: SUM
+    column:
+      advanced_data_type: null
+      changed_on: '2023-08-29T07:28:33.546425'
+      column_name: Subscribers_Youth
+      created_on: '2023-08-29T07:28:33.546424'
+      description: null
+      expression: null
+      extra: '{"warning_markdown":null}'
+      filterable: true
+      groupby: true
+      id: 3120
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: 878cbe87-9772-41d4-9871-2f07b8274b08
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: Youth
+    optionName: metric_5xdne4oq0x8_l9uydy1ue9a
+    sqlExpression: null
+  - aggregate: SUM
+    column:
+      advanced_data_type: null
+      changed_on: '2023-08-29T07:28:33.546449'
+      column_name: Subscribers_MidAge
+      created_on: '2023-08-29T07:28:33.546447'
+      description: null
+      expression: null
+      extra: '{"warning_markdown":null}'
+      filterable: true
+      groupby: true
+      id: 3121
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: 43bc0d62-0766-4f48-8e2b-4700fc80e679
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: MidAge
+    optionName: metric_1mvfoitzgu2_zg9ck54yrx
+    sqlExpression: null
+  - aggregate: SUM
+    column:
+      advanced_data_type: null
+      changed_on: '2023-08-24T09:40:16.656738'
+      column_name: Subscribers_Seniors
+      created_on: '2023-08-24T09:40:16.656737'
+      description: null
+      expression: null
+      extra: '{"warning_markdown":null}'
+      filterable: true
+      groupby: true
+      id: 3113
+      is_active: true
+      is_dttm: false
+      python_date_format: null
+      type: DOUBLE PRECISION
+      type_generic: 0
+      uuid: 11687602-d2eb-4483-8c12-86185fb744e2
+      verbose_name: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: Senior Citizen
+    optionName: metric_ibxlteaz24_zi8t7szn77c
+    sqlExpression: null
+  groupby: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Plan Introduction Date
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title: Plan Type
+  x_axis_title_margin: 30
+  y_axis_title: Number of Subscribers
+  y_axis_title_margin: 50
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  show_value: true
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  xAxisLabelRotation: 0
+  y_axis_format: SMART_NUMBER
+  logAxis: false
+  minorSplitLine: false
+  truncateYAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Plan
+  Introduction Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"Plan
+  Type","label":"Plan Type","expressionType":"SQL"}],"metrics":[{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-29T07:28:33.546425","column_name":"Subscribers_Youth","created_on":"2023-08-29T07:28:33.546424","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3120,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"878cbe87-9772-41d4-9871-2f07b8274b08","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"Youth","optionName":"metric_5xdne4oq0x8_l9uydy1ue9a","sqlExpression":null},{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-29T07:28:33.546449","column_name":"Subscribers_MidAge","created_on":"2023-08-29T07:28:33.546447","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3121,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"43bc0d62-0766-4f48-8e2b-4700fc80e679","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"MidAge","optionName":"metric_1mvfoitzgu2_zg9ck54yrx","sqlExpression":null},{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-24T09:40:16.656738","column_name":"Subscribers_Seniors","created_on":"2023-08-24T09:40:16.656737","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3113,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"11687602-d2eb-4483-8c12-86185fb744e2","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"Senior
+  Citizen","optionName":"metric_ibxlteaz24_zi8t7szn77c","sqlExpression":null}],"orderby":[[{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-29T07:28:33.546425","column_name":"Subscribers_Youth","created_on":"2023-08-29T07:28:33.546424","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3120,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"878cbe87-9772-41d4-9871-2f07b8274b08","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"Youth","optionName":"metric_5xdne4oq0x8_l9uydy1ue9a","sqlExpression":null},false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["Plan
+  Type"],"columns":[],"aggregates":{"Youth":{"operator":"mean"},"MidAge":{"operator":"mean"},"Senior
+  Citizen":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"datasource":"41__table","viz_type":"echarts_timeseries_bar","slice_id":100,"cache_timeout":86400,"x_axis":"Plan
+  Type","time_grain_sqla":"P1D","x_axis_sort_asc":true,"x_axis_sort_series":"sum","x_axis_sort_series_ascending":false,"metrics":[{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-29T07:28:33.546425","column_name":"Subscribers_Youth","created_on":"2023-08-29T07:28:33.546424","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3120,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"878cbe87-9772-41d4-9871-2f07b8274b08","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"Youth","optionName":"metric_5xdne4oq0x8_l9uydy1ue9a","sqlExpression":null},{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-29T07:28:33.546449","column_name":"Subscribers_MidAge","created_on":"2023-08-29T07:28:33.546447","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3121,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"43bc0d62-0766-4f48-8e2b-4700fc80e679","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"MidAge","optionName":"metric_1mvfoitzgu2_zg9ck54yrx","sqlExpression":null},{"aggregate":"SUM","column":{"advanced_data_type":null,"changed_on":"2023-08-24T09:40:16.656738","column_name":"Subscribers_Seniors","created_on":"2023-08-24T09:40:16.656737","description":null,"expression":null,"extra":"{\"warning_markdown\":null}","filterable":true,"groupby":true,"id":3113,"is_active":true,"is_dttm":false,"python_date_format":null,"type":"DOUBLE
+  PRECISION","type_generic":0,"uuid":"11687602-d2eb-4483-8c12-86185fb744e2","verbose_name":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"Senior
+  Citizen","optionName":"metric_ibxlteaz24_zi8t7szn77c","sqlExpression":null}],"groupby":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Plan Introduction
+  Date"}],"order_desc":true,"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"comparison_type":"values","annotation_layers":[],"forecastPeriods":10,"forecastInterval":0.8,"orientation":"vertical","x_axis_title":"Plan
+  Type","x_axis_title_margin":30,"y_axis_title":"Number of Subscribers","y_axis_title_margin":50,"y_axis_title_position":"Left","sort_series_type":"sum","color_scheme":"supersetColors","show_value":true,"only_total":true,"show_legend":true,"legendType":"scroll","legendOrientation":"top","x_axis_time_format":"smart_date","xAxisLabelRotation":0,"y_axis_format":"SMART_NUMBER","logAxis":false,"minorSplitLine":false,"truncateYAxis":false,"y_axis_bounds":[null,null],"rich_tooltip":true,"tooltipTimeFormat":"smart_date","extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: 86400
+uuid: 34a7780f-bd3b-47a0-b178-453fccf6e162
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

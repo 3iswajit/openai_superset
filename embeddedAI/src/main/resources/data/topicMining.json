@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Total Reviews",
+    "query": "SELECT count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') LIMIT 50000;"
+  },
+  {
+    "name": "WeekOverWeek",
+    "query": "SELECT DATE_TRUNC('week', at) AS at, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') AND at >= TO_TIMESTAMP('2025-01-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') AND at < TO_TIMESTAMP('2025-02-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') GROUP BY DATE_TRUNC('week', at) LIMIT 50000;"
+  },
+  {
+    "name": "MonthOverMonth",
+    "query": "SELECT DATE_TRUNC('month', at) AS at, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') AND at >= TO_TIMESTAMP('2024-11-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') AND at < TO_TIMESTAMP('2025-02-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') GROUP BY DATE_TRUNC('month', at) LIMIT 50000;"
+  },
+  {
+    "name": "Review Category Distribution",
+    "query": "SELECT topic_name AS topic_name, subtopic_name AS subtopic_name, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY topic_name, subtopic_name LIMIT 10000;"
+  },
+  {
+    "name": "Topics by Country",
+    "query": "SELECT country AS country, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY country LIMIT 10000;"
+  },
+  {
+    "name": "Topics Detected",
+    "query": "SELECT topic_name AS topic_name, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY topic_name ORDER BY \"COUNT(topic_name)\" DESC LIMIT 1000;"
+  },
+  {
+    "name": "Subtopic Detected",
+    "query": "SELECT subtopic_name AS subtopic_name, count(subtopic_name) AS \"COUNT(subtopic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY subtopic_name ORDER BY \"COUNT(subtopic_name)\" DESC LIMIT 1000;"
+  },
+  {
+    "name": "Topic trend with Time",
+    "query": "SELECT DATE_TRUNC('day', at) AS at, topic_name AS topic_name, count(topic_name) AS \"COUNT(topic_name)\" FROM public.topicwithname JOIN (SELECT topic_name AS topic_name__, count(topic_name) AS mme_inner__ FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') AND at >= TO_TIMESTAMP('2024-11-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') AND at < TO_TIMESTAMP('2025-02-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') GROUP BY topic_name ORDER BY mme_inner__ DESC LIMIT 25) AS series_limit ON topic_name = topic_name__ WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') AND at >= TO_TIMESTAMP('2024-11-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') AND at < TO_TIMESTAMP('2025-02-04 00:00:00.000000', 'YYYY-MM-DD HH24:MI:SS.US') GROUP BY DATE_TRUNC('day', at), topic_name ORDER BY \"COUNT(topic_name)\" DESC LIMIT 10000;"
+  },
+  {
+    "name": "Country to Issues",
+    "query": "SELECT country AS country, subtopic_name AS subtopic_name, count(subtopic_name) AS \"COUNT(subtopic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY country, subtopic_name LIMIT 10000;"
+  },
+  {
+    "name": "Operator to Basis",
+    "query": "SELECT base_app_name AS base_app_name, subtopic_name AS subtopic_name, count(subtopic_name) AS \"COUNT(subtopic_name)\" FROM public.topicwithname WHERE time_of_execution IN ('13th Jan 2025', '26th Dec 2024', '31st Jan 2025', '4th Feb 2025') GROUP BY base_app_name, subtopic_name LIMIT 10000;"
+  }
+]

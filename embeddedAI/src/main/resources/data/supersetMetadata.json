@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Sales Overview",
+    "query": "SELECT category, SUM(sales) AS total_sales FROM sales_data GROUP BY category"
+  },
+  {
+    "name": "Top Customers",
+    "query": "SELECT customer_name, SUM(purchase_amount) AS total_spent FROM orders GROUP BY customer_name ORDER BY total_spent DESC LIMIT 10"
+  },
+  {
+    "name": "Monthly Revenue",
+    "query": "SELECT DATE_TRUNC('month', order_date) AS month, SUM(revenue) AS total_revenue FROM sales GROUP BY month ORDER BY month"
+  },
+  {
+    "name": "Product Performance",
+    "query": "SELECT product_name, COUNT(*) AS total_orders FROM order_items GROUP BY product_name ORDER BY total_orders DESC"
+  },
+  {
+    "name": "Website Traffic",
+    "query": "SELECT country, COUNT(*) AS visitors FROM website_traffic GROUP BY country ORDER BY visitors DESC"
+  },
+  {
+    "name": "Conversion Funnel",
+    "query": "SELECT stage, COUNT(user_id) AS users FROM conversion_funnel GROUP BY stage ORDER BY stage"
+  },
+  {
+    "name": "Customer Retention",
+    "query": "SELECT cohort_month, COUNT(DISTINCT user_id) AS retained_users FROM user_activity GROUP BY cohort_month ORDER BY cohort_month"
+  },
+  {
+    "name": "Sales by Region",
+    "query": "SELECT region, SUM(sales) AS total_sales FROM sales GROUP BY region ORDER BY total_sales DESC"
+  },
+  {
+    "name": "Average Order Value",
+    "query": "SELECT AVG(order_value) AS avg_order_value FROM orders"
+  },
+  {
+    "name": "Inventory Stock Levels",
+    "query": "SELECT product_name, stock_quantity FROM inventory WHERE stock_quantity < 50 ORDER BY stock_quantity ASC"
+  }
+]
+
+
+//User Query (Chat Input)	Expected SQL Query (Generated Output)
+//"Show me total sales by category."	SELECT category, SUM(sales) AS total_sales FROM sales_data GROUP BY category
+//"Who are the top 10 customers by spending?"	SELECT customer_name, SUM(purchase_amount) AS total_spent FROM orders GROUP BY customer_name ORDER BY total_spent DESC LIMIT 10
+//"Give me monthly revenue trends."	SELECT DATE_TRUNC('month', order_date) AS month, SUM(revenue) AS total_revenue FROM sales GROUP BY month ORDER BY month
+//"List the most sold products."	SELECT product_name, COUNT(*) AS total_orders FROM order_items GROUP BY product_name ORDER BY total_orders DESC
+//"How many users are in each stage of the conversion funnel?"	SELECT stage, COUNT(user_id) AS users FROM conversion_funnel GROUP BY stage ORDER BY stage
+//"What is the average order value?"	SELECT AVG(order_value) AS avg_order_value FROM orders

@@ -1,0 +1,48 @@
+slice_name: Average Revenue Per User
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 41__table
+  viz_type: big_number_total
+  slice_id: 2274
+  metric:
+    aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: sum("Revenue")/sum("Number of Subscriber...
+    optionName: metric_6kbn6m3j9u4_z7n8o6d3oxn
+    sqlExpression: sum("Revenue")/sum("Number of Subscribers")
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: Plan Introduction Date
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: $,.1f
+  time_format: smart_date
+  conditional_formatting: []
+  granularity_sqla: Plan Introduction Date
+  extra_form_data: {}
+  dashboards:
+  - 35
+query_context: '{"datasource":{"id":41,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","granularity":"Plan Introduction Date","filters":[{"col":"Plan Introduction
+  Date","op":"TEMPORAL_RANGE","val":"No filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"sum(\"Revenue\")/sum(\"Number
+  of Subscriber...","optionName":"metric_6kbn6m3j9u4_z7n8o6d3oxn","sqlExpression":"sum(\"Revenue\")/sum(\"Number
+  of Subscribers\")"}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"Plan Introduction
+  Date"}],"conditional_formatting":[],"dashboards":[35],"datasource":"41__table","extra_form_data":{},"granularity_sqla":"Plan
+  Introduction Date","header_font_size":0.4,"metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"sum(\"Revenue\")/sum(\"Number
+  of Subscriber...","optionName":"metric_6kbn6m3j9u4_z7n8o6d3oxn","sqlExpression":"sum(\"Revenue\")/sum(\"Number
+  of Subscribers\")"},"slice_id":83,"subheader_font_size":0.15,"time_format":"smart_date","time_range":"No
+  filter","viz_type":"big_number_total","y_axis_format":"$,.1f","force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: e5d6c356-acb5-4f2f-abab-2953c8094b10
+version: 1.0.0
+dataset_uuid: bf48cf77-d9d0-4d32-84f3-d160c615a72e

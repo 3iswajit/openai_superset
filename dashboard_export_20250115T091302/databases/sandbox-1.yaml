@@ -1,0 +1,13 @@
+database_name: sandbox-1
+sqlalchemy_uri: postgresql+psycopg2://postgres:XXXXXXXXXX@10.104.28.160:5432/postgres
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: true
+extra:
+  allows_virtual_table_explore: true
+uuid: 8e60b483-fb60-4bb9-ac97-228e213f41b1
+version: 1.0.0

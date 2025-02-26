@@ -1,0 +1,1919 @@
+dashboard_title: Product Rationalization - Demo
+description: null
+css: ".navbar {\n    transition: opacity 0.5s ease;\n    opacity: 0.05;\n}\n.navbar:hover\
+  \ {\n    opacity: 1;\n}\n.chart-header .header{\n    font-weight: @font-weight-normal;\n\
+  \    font-size: 12px;\n}\n\nvar bnbColors = [\n    //rausch    hackb      kazan\
+  \      babu      lima        beach     tirol\n    '#ff5a5f', '#7b0051', '#007A87',\
+  \ '#00d1c1', '#8ce071', '#ffb400', '#b4a76c',\n    '#ff8083', '#cc0086', '#00a1b3',\
+  \ '#00ffeb', '#bbedab', '#ffd266', '#cbc29a',\n    '#ff3339', '#ff1ab1', '#005c66',\
+  \ '#00b3a5', '#55d12e', '#b37e00', '#988b4e',\n ];\n\n"
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: 5e427039-a0b8-4d04-8138-a6a608ab969e
+position:
+  CHART--7OTRSWAP9:
+    children: []
+    id: CHART--7OTRSWAP9
+    meta:
+      chartId: 94
+      height: 31
+      sliceName: Plan Recommendation
+      uuid: c13f962d-b269-4b05-9670-54bfb11f1859
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-cg5NVVlNC
+    type: CHART
+  CHART--bI7plssxI:
+    children: []
+    id: CHART--bI7plssxI
+    meta:
+      chartId: 102
+      height: 33
+      sliceName: User Profile Comparison
+      uuid: b6ca62ca-69f8-4df8-abac-f0579fb68bc8
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-n0TeA3Eu1_
+    type: CHART
+  CHART-2qCDnHtLGy:
+    children: []
+    id: CHART-2qCDnHtLGy
+    meta:
+      chartId: 89
+      height: 32
+      sliceName: Plan Definition Comparison
+      uuid: ceb5d158-809a-4ef2-90e1-146c342ae118
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-iJMecPHCiQ
+    type: CHART
+  CHART-5-i8t4M7JJ:
+    children: []
+    id: CHART-5-i8t4M7JJ
+    meta:
+      chartId: 100
+      height: 50
+      sliceName: Customer Demographic (Plan Type)
+      uuid: 34a7780f-bd3b-47a0-b178-453fccf6e162
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-wCmfJjBFD
+    type: CHART
+  CHART-O28QFH2NJj:
+    children: []
+    id: CHART-O28QFH2NJj
+    meta:
+      chartId: 99
+      height: 48
+      sliceName: Cost Impact
+      uuid: 7653dbd6-7bf7-4869-91a5-a9dae9631b9c
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-KkCXtVcQkZ
+    type: CHART
+  CHART-WzxePL0K8l:
+    children: []
+    id: CHART-WzxePL0K8l
+    meta:
+      chartId: 85
+      height: 48
+      sliceName: Change Chart (Cost)
+      uuid: 541850c8-a1e9-43c1-81e0-453ccd8a38df
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-KkCXtVcQkZ
+    type: CHART
+  CHART-explore-2270-1:
+    children: []
+    id: CHART-explore-2270-1
+    meta:
+      chartId: 82
+      height: 25
+      sliceName: '# Plans'
+      uuid: 322d828f-02cd-43eb-a396-fc2bd0843d90
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2271-1:
+    children: []
+    id: CHART-explore-2271-1
+    meta:
+      chartId: 96
+      height: 25
+      sliceName: '# Subscribers'
+      uuid: 81a0651f-f760-4fa4-b98e-e21a0f2c9337
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2272-1:
+    children: []
+    id: CHART-explore-2272-1
+    meta:
+      chartId: 84
+      height: 25
+      sliceName: 'Total Revenue '
+      uuid: e47a2bac-0878-44b8-b378-07d4961ad6e9
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2273-1:
+    children: []
+    id: CHART-explore-2273-1
+    meta:
+      chartId: 101
+      height: 25
+      sliceName: Total Costs
+      uuid: 901d37d5-223a-4553-92bb-7a3a2e0030f7
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2274-1:
+    children: []
+    id: CHART-explore-2274-1
+    meta:
+      chartId: 83
+      height: 25
+      sliceName: Average Revenue Per User
+      sliceNameOverride: ARPU
+      uuid: e5d6c356-acb5-4f2f-abab-2953c8094b10
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2275-1:
+    children: []
+    id: CHART-explore-2275-1
+    meta:
+      chartId: 87
+      height: 25
+      sliceName: Average Cost Per User
+      sliceNameOverride: ACPU
+      uuid: 47e8e290-13bc-4cf7-a698-3ec3dc7576e6
+      width: 2
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-zPJJSf4cH
+    type: CHART
+  CHART-explore-2276-1:
+    children: []
+    id: CHART-explore-2276-1
+    meta:
+      chartId: 88
+      height: 50
+      sliceName: Plans with Highest Revenue (Plan Type)
+      uuid: 13491baa-73bd-414d-be58-6235af11d390
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-DMojlg38h
+    type: CHART
+  CHART-explore-2277-1:
+    children: []
+    id: CHART-explore-2277-1
+    meta:
+      chartId: 91
+      height: 50
+      sliceName: Plans with Highest Costs (Plan Type)
+      uuid: 4e501fe1-24ed-4440-8e89-c88d8d8379a2
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-DMojlg38h
+    type: CHART
+  CHART-explore-2278-1:
+    children: []
+    id: CHART-explore-2278-1
+    meta:
+      chartId: 86
+      height: 50
+      sliceName: Plans with Highest Margins (Plan Type)
+      uuid: cc7fa127-f737-4475-b63f-67df4f70c4ce
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-DMojlg38h
+    type: CHART
+  CHART-explore-2279-1:
+    children: []
+    id: CHART-explore-2279-1
+    meta:
+      chartId: 90
+      height: 58
+      sliceName: Plan Type Distribution
+      uuid: 777b2359-b167-427d-878b-f566b523cff8
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-JH2oYjss0
+    type: CHART
+  CHART-explore-2285-1:
+    children: []
+    id: CHART-explore-2285-1
+    meta:
+      chartId: 104
+      height: 55
+      sliceName: Network Type Distribution
+      uuid: 6af5caa3-bad9-4ff5-9262-852ff294d1d6
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-7a-fO1i_v
+    type: CHART
+  CHART-explore-2287-1:
+    children: []
+    id: CHART-explore-2287-1
+    meta:
+      chartId: 106
+      height: 58
+      sliceName: Business Segments (Plan Type)
+      uuid: b4f0cc5b-722f-4bb8-a521-4ac051742241
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-JH2oYjss0
+    type: CHART
+  CHART-explore-2288-1:
+    children: []
+    id: CHART-explore-2288-1
+    meta:
+      chartId: 107
+      height: 55
+      sliceName: Business Segments (Network Type)
+      uuid: e8013b2c-b058-433b-8207-836973503926
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-7a-fO1i_v
+    type: CHART
+  CHART-explore-2289-1:
+    children: []
+    id: CHART-explore-2289-1
+    meta:
+      chartId: 109
+      height: 55
+      sliceName: Revenue vs Margins (Network Type)
+      uuid: ffc32c69-34ad-42c5-b94e-f4dd806740f9
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-7a-fO1i_v
+    type: CHART
+  CHART-explore-2291-1:
+    children: []
+    id: CHART-explore-2291-1
+    meta:
+      chartId: 95
+      height: 50
+      sliceName: Plans with Highest Cost (Network Type)
+      uuid: e8652be6-dbd6-4614-a942-f11ca43f06e9
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-O0JBoc6PIG
+    type: CHART
+  CHART-explore-2292-1:
+    children: []
+    id: CHART-explore-2292-1
+    meta:
+      chartId: 97
+      height: 50
+      sliceName: Plans with Highest Margins (Network Type)
+      uuid: fb248841-2f5d-44a4-bcad-9cd7ad359842
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-O0JBoc6PIG
+    type: CHART
+  CHART-explore-2295-1:
+    children: []
+    id: CHART-explore-2295-1
+    meta:
+      chartId: 108
+      height: 50
+      sliceName: Customer Preferences (Plan Type)
+      uuid: 16607581-feab-4ea1-a785-7639c43012f6
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-wCmfJjBFD
+    type: CHART
+  CHART-explore-2296-1:
+    children: []
+    id: CHART-explore-2296-1
+    meta:
+      chartId: 105
+      height: 50
+      sliceName: Customer Usage (Plan Type)
+      uuid: 77642eb6-ee6d-4519-baaf-b87c854a4a1e
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-wCmfJjBFD
+    type: CHART
+  CHART-kOPUGnXi6f:
+    children: []
+    id: CHART-kOPUGnXi6f
+    meta:
+      chartId: 103
+      height: 58
+      sliceName: Revenue vs Margin (Plan Type)
+      uuid: cab2434d-7ca7-40e5-8ea2-ba6bfaaa4529
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-JH2oYjss0
+    type: CHART
+  CHART-o_weCaKacI:
+    children: []
+    id: CHART-o_weCaKacI
+    meta:
+      chartId: 81
+      height: 33
+      sliceName: Financial Profile Comparison
+      uuid: 8658a370-4710-4966-bde0-55f49ea7bc10
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-pvrbItvoAy
+    type: CHART
+  CHART-tm4FP7VVRw:
+    children: []
+    id: CHART-tm4FP7VVRw
+    meta:
+      chartId: 93
+      height: 50
+      sliceName: Plans with Highest Revenue (Network Type)
+      uuid: 53af0f5b-8775-4637-8cc8-c69799e1edc4
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    - ROW-O0JBoc6PIG
+    type: CHART
+  CHART-zsQgQTOvWB:
+    children: []
+    id: CHART-zsQgQTOvWB
+    meta:
+      chartId: 98
+      height: 48
+      sliceName: Revenue Impact
+      uuid: a085b00c-a126-4d85-888e-1fa5563f9c4b
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-KkCXtVcQkZ
+    type: CHART
+  CHART-zxUo5Jybfb:
+    children: []
+    id: CHART-zxUo5Jybfb
+    meta:
+      chartId: 92
+      height: 48
+      sliceName: Change Chart (Revenue)
+      uuid: 6853f1f2-82aa-4562-be9e-5e1aec08dd8a
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    - ROW-KkCXtVcQkZ
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Product Rationalization - Demo
+    type: HEADER
+  ROOT_ID:
+    children:
+    - TABS-G4tgB14EzA
+    id: ROOT_ID
+    type: ROOT
+  ROW-7a-fO1i_v:
+    children:
+    - CHART-explore-2285-1
+    - CHART-explore-2289-1
+    - CHART-explore-2288-1
+    id: ROW-7a-fO1i_v
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  ROW-DMojlg38h:
+    children:
+    - CHART-explore-2276-1
+    - CHART-explore-2277-1
+    - CHART-explore-2278-1
+    id: ROW-DMojlg38h
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  ROW-JH2oYjss0:
+    children:
+    - CHART-explore-2279-1
+    - CHART-kOPUGnXi6f
+    - CHART-explore-2287-1
+    id: ROW-JH2oYjss0
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  ROW-KkCXtVcQkZ:
+    children:
+    - CHART-zsQgQTOvWB
+    - CHART-zxUo5Jybfb
+    - CHART-O28QFH2NJj
+    - CHART-WzxePL0K8l
+    id: ROW-KkCXtVcQkZ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    type: ROW
+  ROW-O0JBoc6PIG:
+    children:
+    - CHART-tm4FP7VVRw
+    - CHART-explore-2291-1
+    - CHART-explore-2292-1
+    id: ROW-O0JBoc6PIG
+    meta:
+      '0': ROOT_ID
+      '1': TABS-G4tgB14EzA
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  ROW-cg5NVVlNC:
+    children:
+    - CHART--7OTRSWAP9
+    id: ROW-cg5NVVlNC
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    type: ROW
+  ROW-iJMecPHCiQ:
+    children:
+    - CHART-2qCDnHtLGy
+    id: ROW-iJMecPHCiQ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    type: ROW
+  ROW-n0TeA3Eu1_:
+    children:
+    - CHART--bI7plssxI
+    id: ROW-n0TeA3Eu1_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    type: ROW
+  ROW-pvrbItvoAy:
+    children:
+    - CHART-o_weCaKacI
+    id: ROW-pvrbItvoAy
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-vMJW6FkBw
+    type: ROW
+  ROW-wCmfJjBFD:
+    children:
+    - CHART-explore-2295-1
+    - CHART-explore-2296-1
+    - CHART-5-i8t4M7JJ
+    id: ROW-wCmfJjBFD
+    meta:
+      '0': ROOT_ID
+      '1': TABS-G4tgB14EzA
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  ROW-zPJJSf4cH:
+    children:
+    - CHART-explore-2270-1
+    - CHART-explore-2271-1
+    - CHART-explore-2272-1
+    - CHART-explore-2273-1
+    - CHART-explore-2274-1
+    - CHART-explore-2275-1
+    id: ROW-zPJJSf4cH
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    - TAB-l9rmuIMhXY
+    type: ROW
+  TAB-l9rmuIMhXY:
+    children:
+    - ROW-zPJJSf4cH
+    - ROW-JH2oYjss0
+    - ROW-DMojlg38h
+    - ROW-7a-fO1i_v
+    - ROW-O0JBoc6PIG
+    - ROW-wCmfJjBFD
+    id: TAB-l9rmuIMhXY
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Business View
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    type: TAB
+  TAB-vMJW6FkBw:
+    children:
+    - ROW-KkCXtVcQkZ
+    - ROW-cg5NVVlNC
+    - ROW-iJMecPHCiQ
+    - ROW-n0TeA3Eu1_
+    - ROW-pvrbItvoAy
+    id: TAB-vMJW6FkBw
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Rationalization Recommendation
+    parents:
+    - ROOT_ID
+    - TABS-G4tgB14EzA
+    type: TAB
+  TABS-G4tgB14EzA:
+    children:
+    - TAB-l9rmuIMhXY
+    - TAB-vMJW6FkBw
+    id: TABS-G4tgB14EzA
+    meta: {}
+    parents:
+    - ROOT_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '81':
+      id: 81
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '85':
+      id: 85
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '86':
+      id: 86
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '88':
+      id: 88
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '89':
+      id: 89
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '90':
+      id: 90
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '91':
+      id: 91
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '92':
+      id: 92
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '93':
+      id: 93
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '94':
+      id: 94
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '95':
+      id: 95
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '97':
+      id: 97
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '100':
+      id: 100
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '102':
+      id: 102
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '104':
+      id: 104
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+    '105':
+      id: 105
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 106
+        - 107
+        - 108
+        - 109
+    '106':
+      id: 106
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 107
+        - 108
+        - 109
+    '107':
+      id: 107
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 108
+        - 109
+    '108':
+      id: 108
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 109
+  color_scheme: presetColors
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  native_filter_configuration:
+  - id: NATIVE_FILTER-4AzYPeU5r
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Plan Type
+    filterType: filter_select
+    targets:
+    - datasetId: 40
+      column:
+        name: Plan Type
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Plan Type
+          op: IN
+          val:
+          - Add-Ons
+          - Postpaid
+          - Prepaid
+          - Roaming
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: Add-Ons, Postpaid, Prepaid, Roaming
+        value:
+        - Add-Ons
+        - Postpaid
+        - Prepaid
+        - Roaming
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: Add-Ons, Postpaid, Prepaid, Roaming
+        value:
+        - Add-Ons
+        - Postpaid
+        - Prepaid
+        - Roaming
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-l9rmuIMhXY
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 82
+    - 83
+    - 84
+    - 86
+    - 87
+    - 88
+    - 90
+    - 91
+    - 93
+    - 95
+    - 96
+    - 97
+    - 100
+    - 101
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    tabsInScope:
+    - TAB-l9rmuIMhXY
+  - id: NATIVE_FILTER-f4r_VAxtW
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Network Type
+    filterType: filter_select
+    targets:
+    - datasetId: 41
+      column:
+        name: Network Type
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Network Type
+          op: IN
+          val:
+          - 3G
+          - 4G
+          - 5G
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: 3G, 4G, 5G
+        value:
+        - 3G
+        - 4G
+        - 5G
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: 3G, 4G, 5G
+        value:
+        - 3G
+        - 4G
+        - 5G
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-l9rmuIMhXY
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 82
+    - 83
+    - 84
+    - 86
+    - 87
+    - 88
+    - 90
+    - 91
+    - 93
+    - 95
+    - 96
+    - 97
+    - 100
+    - 101
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    tabsInScope:
+    - TAB-l9rmuIMhXY
+  - id: NATIVE_FILTER-7HEH7Eceo
+    controlValues:
+      enableEmptyFilter: false
+    name: 'Days since Plan Inception '
+    filterType: filter_range
+    targets:
+    - datasetId: 40
+      column:
+        name: Days since Inception
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Days since Inception
+          op: '>='
+          val: 1004
+      filterState:
+        value:
+        - 1004
+        - 3479
+        label: "x \u2265 1k"
+    cascadeParentIds:
+    - NATIVE_FILTER-4AzYPeU5r
+    - NATIVE_FILTER-f4r_VAxtW
+    scope:
+      rootPath:
+      - TAB-l9rmuIMhXY
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 82
+    - 83
+    - 84
+    - 86
+    - 87
+    - 88
+    - 90
+    - 91
+    - 93
+    - 95
+    - 96
+    - 97
+    - 100
+    - 101
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+    tabsInScope:
+    - TAB-l9rmuIMhXY
+  - id: NATIVE_FILTER_DIVIDER-r7Rb-7K8M
+    type: DIVIDER
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    title: Recommendation Criteria
+    description: ''
+    chartsInScope: []
+    tabsInScope: []
+  - id: NATIVE_FILTER-AsHJTJ5dN
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Demographics Weight
+    filterType: filter_select
+    targets:
+    - column:
+        name: Demographics weight
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Demographics weight
+          op: IN
+          val:
+          - 0.5
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER-WQ6SyvoNn
+    controlValues:
+      sortAscending: true
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Attributes Weight
+    filterType: filter_select
+    targets:
+    - column:
+        name: Attributes weight
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Attributes weight
+          op: IN
+          val:
+          - 0.5
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+    cascadeParentIds:
+    - NATIVE_FILTER-AsHJTJ5dN
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER-45ZZUcqnj
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: Downgrade
+    filterType: filter_select
+    targets:
+    - column:
+        name: Downgrade
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: Downgrade
+          op: IN
+          val:
+          - 0
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0'
+        value:
+        - 0
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0'
+        value:
+        - 0
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    - 2284
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER_DIVIDER-DhVBYOfCd
+    type: DIVIDER
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    title: Business Simulation
+    description: ''
+    chartsInScope: []
+    tabsInScope: []
+  - id: NATIVE_FILTER-8yIj_m496
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: '% Migration to Plan 1'
+    filterType: filter_select
+    targets:
+    - column:
+        name: MigrationIn1
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: MigrationIn1
+          op: IN
+          val:
+          - 0.5
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0.5'
+        value:
+        - 0.5
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    - 2293
+    - 2294
+    - 2299
+    - 2300
+    - 2302
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER-V5s_VKv8I
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: '% Migration to Plan 2'
+    filterType: filter_select
+    targets:
+    - column:
+        name: MigrationIn2
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: MigrationIn2
+          op: IN
+          val:
+          - 0.25
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0.25'
+        value:
+        - 0.25
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0.25'
+        value:
+        - 0.25
+    cascadeParentIds:
+    - NATIVE_FILTER-8yIj_m496
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    - 2293
+    - 2294
+    - 2299
+    - 2300
+    - 2302
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER-DowdBxuNr
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    name: '% Migration to Plan 3'
+    filterType: filter_select
+    targets:
+    - column:
+        name: MigrationIn3
+      datasetId: 42
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: MigrationIn3
+          op: IN
+          val:
+          - 0.25
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '0.25'
+        value:
+        - 0.25
+      __cache:
+        validateMessage: false
+        validateStatus: false
+        label: '0.25'
+        value:
+        - 0.25
+    cascadeParentIds:
+    - NATIVE_FILTER-8yIj_m496
+    - NATIVE_FILTER-V5s_VKv8I
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2280
+    - 2281
+    - 2282
+    - 2283
+    - 2293
+    - 2294
+    - 2299
+    - 2300
+    - 2302
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  - id: NATIVE_FILTER-Wk-aXNnf5
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Plans of Interest
+    filterType: filter_select
+    targets:
+    - column:
+        name: Plan Name
+      datasetId: 40
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-vMJW6FkBw
+      excluded:
+      - 94
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 2281
+    - 2282
+    - 2283
+    - 2293
+    - 2294
+    - 2299
+    - 2300
+    - 2302
+    tabsInScope:
+    - TAB-vMJW6FkBw
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 81
+    - 82
+    - 83
+    - 84
+    - 85
+    - 86
+    - 87
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 100
+    - 101
+    - 102
+    - 103
+    - 104
+    - 105
+    - 106
+    - 107
+    - 108
+    - 109
+  shared_label_colors:
+    Add-Ons: '#408184'
+    Roaming: '#66CBE2'
+    4G: '#6BD3B3'
+    3G: '#408184'
+    2G: '#FCC550'
+    High Data: '#6BD3B3'
+    Balanced: '#FCC550'
+    Voice Centric: '#408184'
+    Prepaid: '#6BD3B3'
+    Postpaid: '#FCC550'
+    Number of Plans: '#6BD3B3'
+    Family Jewels: '#66CBE2'
+    Rationalization Oppurtunity: '#03748E'
+    Niche Performer: '#EE5960'
+    Consumer Staples: '#FCC550'
+    MidAge: '#6BD3B3'
+    Senior Citizen: '#FCC550'
+    Youth: '#408184'
+    Value Seekers: '#6BD3B3'
+    Entertainment  Enthusiasts: '#FCC550'
+    Travellers: '#408184'
+    After: '#484E5A'
+    Before: '#C9BBAB'
+  color_scheme_domain:
+  - '#6BD3B3'
+  - '#FCC550'
+  - '#408184'
+  - '#66CBE2'
+  - '#EE5960'
+  - '#484E5A'
+  - '#FF874E'
+  - '#03748E'
+  - '#C9BBAB'
+  - '#B17BAA'
+  - '#B5E9D9'
+  - '#FDE2A7'
+  - '#9FC0C1'
+  - '#B2E5F0'
+  - '#F6ACAF'
+  - '#A4A6AC'
+  - '#FFC3A6'
+  - '#81B9C6'
+  - '#E4DDD5'
+  - '#D9BDD5'
+version: 1.0.0

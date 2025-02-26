@@ -1,0 +1,84 @@
+slice_name: Plan Recommendation
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 42__table
+  viz_type: table
+  slice_id: 94
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup: {}
+  all_columns:
+  - plan_name
+  - Top Plan 1
+  - Top Plan 2
+  - Top Plan 3
+  - Total Cost Impact
+  - Total Revenue Impact
+  - link
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: 0
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_krdzaqf434m_ffrjgwut9bf
+    isExtra: false
+    isNew: false
+    operator: '>='
+    operatorId: GREATER_THAN_OR_EQUAL
+    sqlExpression: null
+    subject: Attributes weight
+  - clause: WHERE
+    comparator: 0
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_io4ek0qv5ie_1cj5wzukttw
+    isExtra: false
+    isNew: false
+    operator: '>='
+    operatorId: GREATER_THAN_OR_EQUAL
+    sqlExpression: null
+    subject: Demographics weight
+  - clause: WHERE
+    comparator: 0
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_414sasmsgcu_hw7j9fxq2p
+    isExtra: false
+    isNew: false
+    operator: '>='
+    operatorId: GREATER_THAN_OR_EQUAL
+    sqlExpression: null
+    subject: Description weight
+  order_by_cols:
+  - '["Margins", true]'
+  - '["Revenue", false]'
+  server_pagination: false
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  include_search: true
+  show_cell_bars: true
+  align_pn: true
+  color_pn: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 5
+query_context: '{"datasource":{"id":42,"type":"table"},"force":false,"queries":[{"filters":[{"col":"Attributes
+  weight","op":">=","val":0},{"col":"Demographics weight","op":">=","val":0},{"col":"Description
+  weight","op":">=","val":0}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["plan_name","Top
+  Plan 1","Top Plan 2","Top Plan 3","Total Cost Impact","Total Revenue Impact","link"],"orderby":[["Margins",true],["Revenue",false]],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"42__table","viz_type":"table","slice_id":94,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{},"all_columns":["plan_name","Top
+  Plan 1","Top Plan 2","Top Plan 3","Total Cost Impact","Total Revenue Impact","link"],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":0,"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_krdzaqf434m_ffrjgwut9bf","isExtra":false,"isNew":false,"operator":">=","operatorId":"GREATER_THAN_OR_EQUAL","sqlExpression":null,"subject":"Attributes
+  weight"},{"clause":"WHERE","comparator":0,"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_io4ek0qv5ie_1cj5wzukttw","isExtra":false,"isNew":false,"operator":">=","operatorId":"GREATER_THAN_OR_EQUAL","sqlExpression":null,"subject":"Demographics
+  weight"},{"clause":"WHERE","comparator":0,"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_414sasmsgcu_hw7j9fxq2p","isExtra":false,"isNew":false,"operator":">=","operatorId":"GREATER_THAN_OR_EQUAL","sqlExpression":null,"subject":"Description
+  weight"}],"order_by_cols":["[\"Margins\", true]","[\"Revenue\", false]"],"server_pagination":false,"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","include_search":true,"show_cell_bars":true,"align_pn":true,"color_pn":true,"conditional_formatting":[],"extra_form_data":{},"dashboards":[5],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: 86400
+uuid: c13f962d-b269-4b05-9670-54bfb11f1859
+version: 1.0.0
+dataset_uuid: 6f5a7646-7609-4053-a523-855374abf333
